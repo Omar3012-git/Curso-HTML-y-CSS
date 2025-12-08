@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    margin: 10px;
+    border: grey solid 10px;
+    border-radius: 5px;
+}
+
+.box-default {
+    padding: 30px;
+    box-sizing: content-box;
+}
+
+.box-new {
+    box-sizing: border-box;
+    padding: 30px;
+}

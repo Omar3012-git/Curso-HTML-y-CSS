@@ -1,0 +1,20 @@
+p {
+    color: blue;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-decoration: normal;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+span {
+    text-decoration: line-through;
+    color:rgb(5, 26, 131);
+}
+
+h1 {
+    text-align: center;
+}
