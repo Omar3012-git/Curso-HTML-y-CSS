@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    background: #efefef;
+}
+
+.nav {
+    background: #555;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    color: #eee;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav__link:hover {
+    background: #666;
+}
+
+.link--button {
+    border: 1px solid #eee;
+    padding: 4.5px 20px;
+    background: #efefef;
+    color: #555;
+    margin: 0 10px 0 90px;
+    border-radius: 7px;
+}
+
+.link--button:hover {
+    background: #ccc;
+}
+
+.img--beans {
+    width: 50vw;
+}

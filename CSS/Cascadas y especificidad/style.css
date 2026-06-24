@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    color: red
+}
+
+div {
+    color: skyblue
+}
+
+h1 {
+    color: green;
+}
+
+.mas_específico {
+    color: #777;
+}
+
+#aun_mas {
+    color: #555;
+}
+
+h5 {
+    color: #111 !important;
+}
+
+div h1 {
+    color: #999;
+}

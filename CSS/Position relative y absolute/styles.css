@@ -1,0 +1,35 @@
+.bigbox {
+    border: 1px solid #777;
+    margin: 40px;
+    position: relative;
+    height: 300px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #000;
+}
+
+.box--blue {
+    background: #075ca6;
+    top: 20px;
+}
+
+.box--green {
+    background: #129042;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box--yellow {
+    background: #dec400;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box--red {
+    background: #b21c1c;
+}

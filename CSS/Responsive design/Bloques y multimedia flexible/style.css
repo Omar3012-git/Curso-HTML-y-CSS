@@ -1,0 +1,27 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.bloque {
+    display: inline-block;
+    background-color: skyblue;
+    min-width: 300px;
+    min-height: 100px;
+    padding: 10px;
+    /* Esto es clave para hacer bloques flexibles */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.footer {
+    flex-grow: 1;
+}

@@ -1,0 +1,20 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid {
+    display: grid;
+    height: 70vh;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 100px 80%;
+}
+
+.grid--item {
+    background-color:lightsteelblue;
+    margin: 4px;
+    padding: 4%;
+}
+
+.item4, .item6, .item2 {
+    width: 50%;
+}

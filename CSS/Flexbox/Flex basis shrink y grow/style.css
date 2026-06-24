@@ -1,0 +1,50 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 40px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* O si usamos flex-flow: row nowrap; ahí juntamos 2 propiedades */
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 7px;
+    font-size: 2em;
+    border: 1.3px solid #555;
+    direction: ltr;
+    justify-content: space-evenly; /* Para alinear los elementos en el eje principal*/
+    align-items: start; /* Para alinear los elementos en el eje transversal*/
+    align-content: space-evenly; /* Para alinear las filas en el eje transversal cuando hay varias filas*/
+    /* en caso de querer modificar un hijo puntual, usaríamos align-self: center; */
+}
+
+.flex--item {
+    height: 100px;
+    background: #246f95;
+    color: #ddd;
+    border-radius: 7px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* o, para juntar las 3 propiedades: flex: 1 1 200px; */
+}
+
+.flex--item:first-child {
+    flex-grow: 3;
+}
+
+.flex--item:nth-child(2n) {
+    background: #3f9faa;
+}
+
+.flex--item:nth-child(3n) {
+    background: #6993a5;
+}

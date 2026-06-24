@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces (avanzado)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend> Datos personales </legend>
+        <div class="form_input">
+            <label for="nombre">Nombre
+            <input type="text" placeholder="Hoo Lee" id="nombre">
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="email">Email
+            <input type="email" placeholder="hoolee@gmail.com" id="email">
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="asunto">Asunto
+            <input type="text" placeholder="Asunto del mensaje" id="asunto">
+            </label>
+        </div>
+        </fieldset>
+        <div class="form_input">
+            <label for="type-of-user"> Tipo de usuario:
+                <select name="type-of-user" id="">
+                    <option value="user1">Repartidor</option>
+                    <option value="user2">Comercial</option>
+                    <option value="user3">Gerente</option>
+                    <option value="user4">Jefe</option>
+                </select>
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="type-of-referente"> Referente:
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user" id="">
+                    <option value="Juan">Consultor</option>
+                    <option value="Pedro">Gerente</option>
+                    <option value="María">Contador</option>
+                    <option value="Alex">Influencer</option>
+                </datalist>
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="mensaje">Mensaje
+            <textarea rows="5" placeholder="Deja tu mensaje" id="mensaje"></textarea>
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="terminos">
+            <input type="checkbox" id="terminos" class="checkbox">Acepto los <a href="terms.html" target="_blank">términos y condiciones</a>
+            </label>
+        </div>
+    </form>
+</body>
+</html>

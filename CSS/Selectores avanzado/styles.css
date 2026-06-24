@@ -1,0 +1,54 @@
+/*
+Para seleccionar por atributo:
+img[src$=".png"] {}  --> Selecciona todas las imágenes que terminan en .png
+img[src^="img/"] {}  --> Selecciona todas las imágenes que comienzan con img/
+img[src*="logo"] {}  --> Selecciona todas las imágenes que contienen la palabra logo en su ruta
+*/
+img[src$="jpg"] {
+    width: 100vw;
+}
+/*
+Ahora bien, para seleccionar un elemento hijo directo de otro elemento, se usa:
+ul > li {}
+Y para seleccionar un elemento descendiente, que no hace falta que sea hijo directo, se usa un espacio en blanco:
+ul li {}
+*/
+ul > li {
+    color: #555;
+}
+ul span {
+    color: #686a44;
+}
+/*
+Luego, para seleccionar un elemento adyacente, se usa:
+h1 + p {}
+*/
+h1 + p {
+    color: #3c5868;
+}
+/*Si queremos abarcar también a los hermanos siguientes, se usa:
+h1 ~ p {}
+*/
+h1 ~ p {
+    color: #3c5868; 
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #444;
+}
+
+h1, h2 {
+    margin: 40px;
+    text-align: center;
+}
+
+ul {
+    margin: 0 40px
+}
+
+p {
+    margin: 20px 40px
+}

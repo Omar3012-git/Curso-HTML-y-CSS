@@ -1,0 +1,45 @@
+body {
+    font-family: "Helvetica Neue";
+    color: #333;
+    background: #efefef;
+}
+
+h1::first-letter {
+    font-size: 1.3em;
+}
+
+p::first-line {
+    font-size: 1.3em;
+}
+
+div::selection, h1::selection, p::selection {
+    background: #ccc;
+}
+
+li::marker {
+    color: #000;
+}
+
+textarea::placeholder {
+    color: #555;
+}
+
+textarea {
+    width: 97vw;
+    min-height: 200px;
+    font-family: inherit;
+    padding: 10px;
+    font-size: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "◎ "
+}
+
+li::after {
+    content: " ";
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to bottom, #eee1, #eeef);
+    color: #333;
+}
+
+h2 {
+    margin: 9px 0 0 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+form {
+    margin: auto;
+    margin-top: 10vh;
+    border: 2px solid #ccc;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.form_input {
+    width: 99%;
+    margin: 10px 0
+}
+    
+
+input, textarea, select, datalist {
+    width: 98%;
+    color: #333;
+    font-size: .9em;
+    background-color: #eee;
+    border-radius: 4px;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    min-width: 100%;
+}
+
+option {
+    background-color: #eee;
+}
+
+textarea {
+    font-family: arial;
+    min-width: 98%;
+    resize: none;
+    /*form-sizing: content; aún no está disponible?*/
+    min-height: 100;
+    font-size: .9em;
+}
+
+label {
+    font-size: 1em;
+    line-height: 2;
+}
+
+.checkbox {
+    width: auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+}
+
+legend {
+    padding: 0 10px;
+}
+

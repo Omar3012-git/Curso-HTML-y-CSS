@@ -1,0 +1,124 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header, .main-wrapper, .footer {
+    width: 100%;
+}
+
+div, body, .header, .footer, .main-wrapper, h1, h2, h3, p, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+.header {
+    background-color: rgb(103, 89, 57);
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: .1rem 0;
+    justify-content: center;
+}
+
+.main-nav li {
+    margin: 0 1rem;
+}
+
+.main-nav a {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    max-width: 1024px;
+}
+
+.content {
+    flex-grow: 2;
+    padding: 0 30px;
+    background-color:whitesmoke;
+}
+
+.secondary-nav {
+    min-width: 160px;
+    padding: 0 15px;
+    background-color: rgb(239, 233, 225);
+    max-width: 200px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.secondary-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.secondary-nav li {
+    margin: .5rem 0;
+    margin-left: 1rem;
+}
+
+.secondary-nav, .news {
+    flex-grow: 1;
+}
+
+.news {
+    padding: 0 15px;
+    max-width: 160px;
+    background-color: rgb(239, 233, 225);
+}
+
+.noticias {
+    font-size: .8rem;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(68, 63, 54);
+    color: gainsboro;
+    padding: 1rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .news {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+    
+    .secondary-nav {
+        max-height: 10rem;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .secondary-nav li {
+        margin: .3rem 0;
+    }
+}

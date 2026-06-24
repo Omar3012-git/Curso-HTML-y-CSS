@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture source y media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <picture>
+        <source srcset="coffee-beans-original.webp" type="image/webp" class="coffee--img">
+        <source media="(max-width: 400px)" srcset="coffee-beans-small.png" class="coffee--img">
+        <source media="(max-width: 800px)" srcset="coffee-beans-medium.png" class="coffee--img">
+        <img src="coffee-beans-original.png" alt="Granos de café" class="coffee--img">
+    </picture>
+</body>
+</html>

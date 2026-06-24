@@ -1,0 +1,60 @@
+body {
+    font-family: "-apple-system";
+    margin: 0;
+}
+
+.box {
+    margin: 0 -2px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    transition: background 0.3s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-shadow: 0 4px 5px #666;
+    display: inline-block;
+}
+
+.box--blue {
+    background: skyblue;
+}
+
+.box--orange {
+    background: rgb(246, 159, 10);
+}
+
+.box--green {
+    background: rgb(139, 194, 63);
+}
+
+.box--violet {
+    background: rgb(167, 141, 205);
+}
+
+.box--blue:hover {
+    background: rgb(71, 127, 149);
+}
+
+.box--orange:hover {
+    background: rgb(205, 134, 11);
+}
+
+.box--green:hover {
+    background: rgb(100, 141, 42);
+}
+
+.box--violet:hover {
+    background: rgb(122, 102, 152);
+    left: 40px;
+}
+
+.box:hover {
+    width: 150px;
+}
+
+.contenedor {
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+}

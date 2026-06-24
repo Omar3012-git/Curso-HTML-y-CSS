@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+    background: #efefef;
+}
+
+.nav {
+    background: #333;
+    position: fixed;
+    top: 0;
+    right:0;
+    margin: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
+.content {
+    position: relative;
+    margin-top: 80px;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link {
+    color: #eee;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav__link:hover {
+    background: #666;
+}
+
+.link--button {
+    border: 1px solid #eee;
+    padding: 4.5px 20px;
+    background: #efefef;
+    color: #555;
+    margin: 0 10px 0 90px;
+    border-radius: 7px;
+}
+
+.link--button:hover {
+    background: #ccc;
+}
+
+.img--beans {
+    width: 100vw;
+}
+
+.titulos {
+    position: sticky;
+}
+
+.titulo1 {
+    top: 70px;
+}
+
+.titulo2 {
+    top: 160px;
+}
+
+.titulo3 {
+    top: 190px;
+}
+
+p, h1, h2, .variedades--list {
+    margin: 15px 40px
+}

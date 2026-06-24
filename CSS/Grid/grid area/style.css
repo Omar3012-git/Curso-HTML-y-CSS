@@ -1,0 +1,82 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: minmax(200px,1fr) minmax(400px,3fr) minmax(200px,1fr);
+    grid-template-rows: 1fr;
+    gap: 8px;
+    grid-auto-flow: dense;
+    grid-template-areas: "nav main aside";
+    margin: auto;
+}
+
+.item {
+    background-color: lightgrey;
+    border-radius: 7px;
+    color: rgb(50, 50, 50);
+    font-size: 1.2em;
+    align-content: center;
+    text-align: center;
+}
+
+header, nav, main, aside, footer {
+    border: 1px solid grey;
+    justify-content: center;
+    text-align: left;
+    margin: 10px 0;
+}
+
+nav, aside {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 20px;
+}
+
+header {
+    margin-top: 0;
+    width: 100vw;
+    text-align: center;
+    background-color:oldlace;
+}
+
+li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    width: 100vw;
+    background-color:peru;
+}
+
+@media screen and (max-width:500px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        "nav"
+        "main"
+        "aside";
+        gap: 4px;
+    }
+
+    nav {
+        position: static;
+        height: auto;
+    }
+
+    aside {
+        display: none;
+    }
+}

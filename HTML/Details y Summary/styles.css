@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #bdb39f;
+}
+
+h1 {
+    margin: 30px 10px
+}
+
+img {
+    width: 30px;
+}
+
+details {
+    border: 2px solid #8d8370;
+    margin: 4px 10px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+summary {
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.85em;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}

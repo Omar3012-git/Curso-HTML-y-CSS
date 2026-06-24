@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.login {
+margin: 60px auto;
+min-width: 250px;
+max-width: 300px;
+background-color: #eee;
+box-shadow: 0 0 20px #aaa;
+padding: 20px;
+padding-top: 30px;
+text-align: center;
+border-radius: 20px;
+font-family: inherit;
+}
+
+input {
+    padding: 7px 10px;
+    margin: 10px 20%;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    color: inherit
+}
+
+button {
+    background: #555;
+    color: #ddd;
+    margin: 20px 20%;
+    font-family: inherit;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: #333;
+}
+
+button:active {
+    background: #111;
+}
+
+.links {
+    margin: 330px 0;
+    background: #555;
+    padding: 15px 30px;
+    color: #ddd;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color: #ddd;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:first-child {
+    color: #ddd;
+}
+
+li:nth-child(2) {
+    color: #ddd;
+}
+
+li:nth-child(3) {
+    color: #ddd;
+}
+
+li:last-child {
+    color: #ddd;
+}
+
+input:invalid {
+    color: rgb(212, 62, 62)
+}

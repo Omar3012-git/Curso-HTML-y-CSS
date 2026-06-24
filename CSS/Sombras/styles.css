@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+}
+
+.box {
+    width: 350px;
+    background-color: #f4f4f4;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #0005;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 0 10px #18a4;
+}
+
+h2 {
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    text-shadow: 0 0 10px #18a3;
+    margin: 25px;
+}
+
+img {
+    height: 17em;
+    filter: drop-shadow(0 0 10px #18a4);
+    margin: 15px;
+}

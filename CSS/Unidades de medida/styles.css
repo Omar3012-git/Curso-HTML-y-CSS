@@ -1,0 +1,28 @@
+div {
+    background: #ededed;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: grey 10px solid;
+    width: 80vw;
+    height: 80vh;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 25px;
+    color: #444;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 100;
+    color: #555;
+}
+
+p {
+    color: #555
+}
