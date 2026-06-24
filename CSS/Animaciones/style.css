@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+body, div {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px;
+    background-color: #f1f1f1;
+    border: 3px solid #555;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.bar {
+    padding: 40px;
+    background-color: #555;
+    border-radius: 10px;
+    width: 10%;
+}
