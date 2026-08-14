@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    height: 200vh;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid rgb(174, 174, 174);
+    border-radius: 33px;
+    padding: 4px;
+    width: 80vw;
+    position: fixed;
+    top: 40%;
+}
+
+.barra {
+    padding: 30px;
+    border-radius: 26px;
+    animation-name: llenar-barra;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-timeline: scroll();
+}
+
+.barra:active {
+    animation-play-state: paused;
+}
+
+@keyframes llenar-barra {
+    0% {
+        background-color: #db3c3c;
+        width: 10%;
+    }
+    50% {
+        background-color: #dba13c;
+    }
+    100% {
+        background-color: #4fbe51;
+        width: 100%;
+    }
+}
